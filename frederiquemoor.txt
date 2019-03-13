@@ -1,0 +1,14 @@
+% man(Person)
+% it is true if Person is a man
+
+man(justus). 
+man(lars).
+man(teun).
+man(sebastian).
+
+% woman(Person)
+% it is true if Person is a women
+woman(wendele).
+woman(frederique).
+woman(lisanne).
+
