@@ -68,7 +68,7 @@ peano(n(X)):- peano(X).
 % to delete Y to X.
 
 division(X, Y, 0) :- greater(Y, X).
-division(X, Y, ):- substr(X, Y, X2). division,
+division(X, Y, n(Z)):- substr(X, Y, X2). division,
  division(X2, Y, Z).
 
 
