@@ -69,7 +69,7 @@ peano(n(X)):- peano(X).
 
 division(X, Y, 0) :- greater(Y, X).
 division(X, Y, n(Z)):- substr(X, Y, X2). division,
- division(X2, Y, Z).
+  division(X2, Y, Z).
 
 
 
